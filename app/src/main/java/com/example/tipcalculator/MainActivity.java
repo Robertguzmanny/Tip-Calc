@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
     private void calculate(){
         if(etAmount.length()==0) {
             etAmount.requestFocus();
-            etAmount.setError("Enter a valid Amount");
+            etAmount.setError("Enter a Amount");
         }else{
             double amount = Double.parseDouble(etAmount.getText() .toString());
             int percent =  sbPercent.getProgress();
